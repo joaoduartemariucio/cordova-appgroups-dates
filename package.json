@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "name": "cordova-plugin-appgroupsuserdefaults",
+  "cordova_name": "App Groups UserDefault",
+  "description": "Compartilhar dados salvos na aplicação",
+  "license": "Apache 2.0",
+  "repo": "",
+  "issue": "",
+  "author": {
+    "name": "João Vitor Duarte Mariucio",
+    "email": "joaovitorduartemariucio@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joaoduartemariucio/cordova-plugin-nsuserdefaults-for-app-groups"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios",
+    "ios",
+    "cordova"
+  ],
+  "platforms": [
+    "ios"
+  ],
+  "engines": [],
+  "englishdoc": ""
+}
