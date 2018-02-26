@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "name": "cordova-plugin-appgroupsuserdefaults",
+  "name": "cordova-appgroups-dates",
   "cordova_name": "App Groups UserDefault",
   "description": "Compartilhar dados salvos na aplicação",
   "license": "Apache 2.0",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/joaoduartemariucio/cordova-plugin-nsuserdefaults-for-app-groups"
+    "url": "https://github.com/joaoduartemariucio/cordova-appgroups-dates"
   },
   "keywords": [
     "ecosystem:cordova",
