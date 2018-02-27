@@ -1,7 +1,7 @@
 ## Description
 
 This plugin helps to share data between a hybrid application and a native extension it is easy and efficient if everything is set up correctly.
-Improvement of the project cordova-plugin-nsuserdefaults-for-app-groups
+Improvement of the project cordova-plugin-nsuserdefaults-for-app-groups.
 
 ## Adding the Plugin ##
 
