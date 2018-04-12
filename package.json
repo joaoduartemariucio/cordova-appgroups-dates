@@ -21,9 +21,6 @@
     "ios",
     "cordova"
   ],
-  "cordovaPlugins": [
-      "cordova-plugin-inappbrowser"
-  ],
   "platforms": [
     "ios"
   ],
