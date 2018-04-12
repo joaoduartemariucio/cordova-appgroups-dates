@@ -6,7 +6,7 @@ This plugin helps to share data between a hybrid application and a native extens
 
 Use the Cordova CLI and type in the following command:
 
-`cordova plugin add cordova-appgroups-dates`
+`cordova plugin add https://github.com/joaoduartemariucio/cordova-appgroups-dates`
 
 ## Sample Code
 
