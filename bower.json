@@ -1,0 +1,24 @@
+{
+  "name": "cordova-appgroups-dates",
+  "description": "Sharing Data Application Hybrid with Native",
+  "main": "AppGroupsUserDefaults.js",
+  "authors": [
+    "Joao Vitor Duarte Mariucio"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios",
+    "ios",
+    "cordova"
+  ],
+  "homepage": "https://github.com/joaoduartemariucio/cordova-appgroups-dates",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "private": true
+}
