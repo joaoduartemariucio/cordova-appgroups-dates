@@ -50,3 +50,10 @@ https://developer.salesforce.com/blogs/engineering/2017/02/using-ios-app-extensi
     
     let foo = UserDefaults(suiteName: "group.cats.catsAreAwesome")!.string(forKey: "token")
         print(foo)
+
+ ### Load in Objective-C
+
+    NSUserDefaults* userDefaults = [[NSUserDefaults alloc] initWithSuiteName:@"group.cats.catsAreAwesome"];
+    NSString* value = [userDefaults stringForKey:@"token"];
+    NSLog(@"token in group.cats.catsAreAwesome is '%@'", value);
+    
