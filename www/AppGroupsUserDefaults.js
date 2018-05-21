@@ -8,8 +8,8 @@ AppGroupsUserDefaults.prototype.load = function(options, success, fail) {
   cordova.exec(success, fail, "AppGroupsUserDefaults", "load", [options]);
 };
 
-AppGroupsUserDefaults.prototype.clearAll = function(options, success, fail) {
-  cordova.exec(success, fail, "AppGroupsUserDefaults", "load", [options]);
+AppGroupsUserDefaults.prototype.clearAll = function(success, fail) {
+  cordova.exec(success, fail, "AppGroupsUserDefaults", "clearAll");
 };
 
 var appGroupsUserDefaults = new AppGroupsUserDefaults();
