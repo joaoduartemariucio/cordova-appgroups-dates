@@ -49,5 +49,23 @@
     }
     [self.commandDelegate sendPluginResult:result callbackId:command.callbackId];
 }
-
+- (void) clearAll:(CDVInvokedUrlCommand*)command
+{
+    NSUserDefaults * defs = [NSUserDefaults standardUserDefaults];
+    NSDictionary * dict = [defs dictionaryRepresentation];
+    for (id key in dict) {
+        [defs removeObjectForKey:key];
+    }
+    [defs synchronize];
+    
+    CDVPluginResult* result = nil;
+    if(callbackResult != nil)
+    {
+      result = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsString:callbackResult];
+    } else {
+      result = [CDVPluginResult resultWithStatus:CDVCommandStatus_IO_EXCEPTION];
+    }
+    [self.commandDelegate sendPluginResult:result callbackId:command.callbackId];
+    
+}
 @end
