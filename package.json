@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "cordova-appgroups-dates",
   "cordova_name": "App Groups UserDefault",
   "description": "Sharing Data Application Hybrid with Native",
@@ -10,8 +10,7 @@
     "name": "João Vitor Duarte Mariucio",
     "email": "joaovitorduartemariucio@gmail.com"
   },
-  
-    "repository": {
+  "repository": {
     "type": "git",
     "url": "https://github.com/joaoduartemariucio/cordova-appgroups-dates"
   },
